@@ -1,39 +1,45 @@
 package n1exercici1;
 
-public class NoGenericMethods {
+public class NoGenericMethods<T> {
 
-	private Object objecte1;
-    private Object objecte2;
-    private Object objecte3;
+	private T ob1;
+	private T ob2;
+	private T ob3;
+	
+	public NoGenericMethods(T ob1, T ob2, T ob3) {
+		this.ob1 = ob1;
+		this.ob2 = ob2;
+		this.ob3 = ob3;
+	}
 
-    public NoGenericMethods(Object objecte1, Object objecte2, Object objecte3) {
-        this.objecte1 = objecte1;
-        this.objecte2 = objecte2;
-        this.objecte3 = objecte3;
-    }
+	public T getOb1() {
+		return ob1;
+	}
 
-    public void setObjecte1(Object objecte1) {
-        this.objecte1 = objecte1;
-    }
+	public void setOb1(T ob1) {
+		this.ob1 = ob1;
+	}
 
-    public void setObjecte2(Object objecte2) {
-        this.objecte2 = objecte2;
-    }
+	public T getOb2() {
+		return ob2;
+	}
 
-    public void setObjecte3(Object objecte3) {
-        this.objecte3 = objecte3;
-    }
+	public void setOb2(T ob2) {
+		this.ob2 = ob2;
+	}
 
-    public Object getObjecte1() {
-        return objecte1;
-    }
+	public T getOb3() {
+		return ob3;
+	}
 
-    public Object getObjecte2() {
-        return objecte2;
-    }
+	public void setOb3(T ob3) {
+		this.ob3 = ob3;
+	}
 
-    public Object getObjecte3() {
-        return objecte3;
-    }
-    
+	@Override
+	public String toString() {
+		return "NoGenericMethods [ob1=" + ob1 + ", ob2=" + ob2 + ", ob3=" + ob3 + "]";
+	}
+
+	
 }
