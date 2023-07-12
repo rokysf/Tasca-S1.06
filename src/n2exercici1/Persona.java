@@ -1,4 +1,4 @@
-package n1exercici2;
+package n2exercici1;
 
 public class Persona {
 
@@ -16,5 +16,4 @@ public class Persona {
 	public String toString() {
 		return "Persona [nom=" + nom + ", cognom=" + cognom + ", edat=" + edat + "]";
 	}
-
 }

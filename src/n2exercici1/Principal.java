@@ -1,4 +1,4 @@
-package n1exercici2;
+package n2exercici1;
 
 public class Principal {
 
@@ -6,7 +6,8 @@ public class Principal {
 		
 		Persona p1 = new Persona("Pau", "Minguez", 26);
 		
-		GenericMethods.metodeGeneric(p1,"Hola",55);
+		GenericMethods.metodeGeneric(p1,"Hola",'k');
+
 	}
 
 }
