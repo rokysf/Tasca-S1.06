@@ -13,12 +13,6 @@ public class Principal {
         System.out.println(n1.getOb1());
         System.out.println(n1.getOb2());
         System.out.println(n1.getOb3());
-        System.out.println("-----------------------------------");
-        
-        Persona p4 = new Persona("Marta", 67);
-        n1.setOb1(p4);
-        System.out.println(n1.getOb1());
-		
+        		
 	}	
-
 }
